@@ -2,6 +2,19 @@
 * You've got Kibana 6.5.4 installed and connected to the ElasticSearch version 6.5 or higher.
 * You've got terminal access to install plugin.
 
+### Indexes specification
+
+On version 0.1.x we doen't support nested types. You can see all nested object with our "Show JSON" feature.
+We'll add nested types browsing support in our future versions, stay tuned.
+
+Arrays are displayed in one row.
+
+You can get list of unique terms only for *keyword* and integer types.
+You can also get unique terms for text fields if it has *keyword* type in it's multitype mapping. 
+
+Sorting ability works for simple types works almost like in the ElasticSearch.
+For *text* type fields it's recommended to have *keyword* multitype set.
+
 ## Installation
 
 To run installation you should run in the terminal on your Kibana server:
