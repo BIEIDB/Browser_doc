@@ -19,7 +19,7 @@ For **text** type fields it's recommended to have **keyword** multitype set.
 
 To run installation you should run in the terminal on your Kibana server:
 
-    bin/kibana-plugin install file:///some/local/path/biei-0.1.zip
+    bin/kibana-plugin install file:///some/local/path/biei-0.1.0.zip
 
 
 If you have any questions about installation process, please check the Kibana manual [page](https://www.elastic.co/guide/en/kibana/current/install-plugin.html) or contact us at [support@bieidb.com](mailto:support@bieidb.com).
