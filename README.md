@@ -4,16 +4,16 @@
 
 ### Indexes specification
 
-On version 0.1.x we doen't support nested types. You can see all nested object with our "Show JSON" feature.
+On version 0.1.x we doen't support nested types. You can see all nested object with our *"Show JSON"* feature.
 We'll add nested types browsing support in our future versions, stay tuned.
 
 Arrays are displayed in one row.
 
-You can get list of unique terms only for *keyword* and integer types.
-You can also get unique terms for text fields if it has *keyword* type in it's multitype mapping. 
+You can get list of unique terms only for **keyword** and integer types.
+You can also get unique terms for text fields if it has **keyword** type in it's multitype mapping. 
 
 Sorting ability works for simple types works almost like in the ElasticSearch.
-For *text* type fields it's recommended to have *keyword* multitype set.
+For **text** type fields it's recommended to have **keyword** multitype set.
 
 ## Installation
 
